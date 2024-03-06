@@ -1,0 +1,163 @@
+body {
+    background-color: black; 
+    height: 95vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    background-color: black;
+    color: white;
+    width: 360px;
+    height: 500px;
+    border: 4px solid black;
+    border-radius: 20px;
+    border-color: rgb(2, 255, 2);
+    box-shadow: 0 0 4px white,
+        0 0 6px blue,
+        0 0 8px red;
+}
+
+#modebtn{
+    background-color: black;
+    color: white;
+    border: 2px solid white;
+    border-radius: 10px 10px 0px 0px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 19%;
+}
+
+fieldset {
+    width: 300px;
+    margin-left: 4%;
+    margin-top: 3%;
+    border-radius: 10px;
+}
+
+.em input {
+    background-color: black;
+    color: white;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    width: 280px;
+}
+
+.em{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.ps{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.ps input {
+    background-color: black;
+    color: white;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    width: 280px;
+}
+
+label {
+    font-size: 16px;
+}
+
+.lab {
+    display: flex;
+    align-items: center;
+    margin: 5%;
+    
+}
+
+.lab a {
+    position: relative;
+    left: 90px;
+    color: blue;
+}
+
+.icons {
+    display: flex;
+    justify-content: center;
+    gap: 17px;
+    margin-top: 8%;
+}
+
+.icons img {
+    width: 40px;
+    height: 40px;
+}
+
+#logbtn {
+    background-color: black;
+    color: white;
+    border: none;
+    width: 100px;
+    height: 30px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 20px;
+    box-shadow: 0 0 6px white;
+}
+
+.but {
+    text-align: center;
+    margin-top: 12%;
+}
+
+#logbtn:hover {
+    cursor: pointer;
+    animation: animatbor;
+    animation-duration: 6s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
+
+@keyframes animatbor {
+    0% {
+        border-color: rgb(67, 67, 241);
+        box-shadow: 0 0 18px rgb(67, 67, 241);
+        transform: translate3d(200px);
+    }
+
+    25% {
+        border-color: yellow;
+        box-shadow: 0 0 18px yellow;
+        transform: translate3d(400px);
+    }
+
+    50% {
+        border-color: red;
+        box-shadow: 0 0 18px red;
+        transform: translate3d(600px);
+    }
+
+    75% {
+        border-color: rgb(2, 255, 2);
+        box-shadow: 0 0 18px rgb(2, 255, 2);
+        transform: translate3d(700px);
+    }
+
+    100% {
+        border-color: rgb(152, 3, 252);
+        box-shadow: 0 0 18px rgb(152, 3, 252);
+        transform: translate3d(850px);
+    }
+}
+
+.white{
+    background-color: white;
+    color: black;
+}
